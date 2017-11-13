@@ -1,0 +1,80 @@
+.body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #3498DB;
+  }
+  
+  .cabecalho__icone-menu {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 10%;
+    max-width: 150px;
+    padding-left: 1em;
+  }
+  
+  .cabecalho__logo-folha {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    max-width: 480px;
+    max-height: 207px;
+  }
+  
+  .carrossel img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18vh 0.5em 0 0.5em;
+  }
+  
+  .carrossel h4 {
+    box-sizing: border-box;
+    margin: 0 0 0 0.7em;
+    padding: 0.5em;
+    color: white;
+    text-transform: uppercase;
+    background-color: #3498DB;
+  }
+  
+  .carrossel h2 {
+    box-sizing: border-box;
+    margin: 0 0 0 0.7em;
+    width: 80%;
+    color: #2C3E50;
+  }
+  
+  .marcardores {
+      width: 30%;
+      margin-left: 40%;
+  }
+  
+  .circle {
+      display: inline-block;
+      width:10px;
+      height:10px;
+      border-radius:100%;
+      margin: 1.5em 0 3em 0;
+      background-color: #ECF0F1;
+  }
+  
+  .marcadores :first-child {
+      background-color: #3498DB;
+  }
+  
+  
+  
+  
+  
